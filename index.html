@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contrast — an exploration</title>
+    <meta name="description" content="A responsive, accessible exploration of the idea of contrast in design and life.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+
+
+<header class="site-header" role="banner">
+    <div class="wrap">
+        <h1 class="brand">Contrast</h1>
+        <p class="subtitle">Exploring difference, emphasis and balance.</p>
+        <nav aria-label="Primary">
+            <ul class="main-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#examples">Examples</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<main id="content" class="wrap" role="main">
+    <section id="about">
+        <h2>About</h2>
+        <p>Contrast is the force that separates elements so they can be seen. It gives priority and invites interpretation. This page reflects on contrast as a concept and demonstrates practical ways to apply it in web design.</p>
+    </section>
+
+
+    <section id="design" class="cards">
+        <h2>Contrast in design</h2>
+        <div class="card-list">
+            <article class="card" aria-labelledby="c1">
+                <h3 id="c1">Color & Tone</h3>
+                <p>Differences in luminance and color make text legible and shapes distinct. Good color contrast improves readability for everyone.</p>
+                <div class="swatches" aria-hidden="true">
+                    <div class="swatch dark">Dark on light</div>
+                    <div class="swatch accent">Accent on white</div>
+                </div>
+            </article>
+
+
+            <article class="card" aria-labelledby="c2">
+                <h3 id="c2">Scale & Weight</h3>
+                <p>Size and typographic weight set hierarchy: headlines vs. body, bold vs. regular. These contrasts guide attention.</p>
+            </article>
+
+
+            <article class="card" aria-labelledby="c3">
+                <h3 id="c3">Space & Texture</h3>
+                <p>Negative space, texture, and borders create separation and emphasis without extra color.</p>
+            </article>
+        </div>
+    </section>
+
+
+    <section id="examples">
+        <h2>Examples</h2>
+        <p>The snippets below are built to be accessible and responsive.</p>
+
+
+        <div class="example-grid">
+            <div class="example-panel">
+                <h3>Readable text</h3>
+                <p>This paragraph uses a high contrast foreground and generous line length for easy reading on all devices.</p>
+            </div>
+
+
+            <div class="example-panel low-contrast" aria-hidden="false">
+                <h3>Low-contrast caution</h3>
+                <p>Low contrast can be aesthetic but reduces accessibility.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="reflection">
+        <h2>Reflection</h2>
+        <p>This page is a personal exploration of contrast as a concept. Contrast is everywhere and noticing it allows us to appreciate differences and create clarity. The visual examples above are practical demonstrations of how contrast can be applied in layout, typography, and color to enhance comprehension and accessibility.</p>
+    </section>
+</main>
+
+
+<footer class="site-footer" role="contentinfo">
+    <div class="wrap">
+        <p>&copy; <time datetime="2025-11-27">2025</time> — Personal project on contrast.</p>
+    </div>
+</footer>
+</body>
+</html>
