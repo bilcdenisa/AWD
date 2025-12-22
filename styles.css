@@ -7,7 +7,7 @@
     --muted: #cccccc;
 
     --accent-blue: #4da3ff;
-    --accent-yellow: #e49805;
+    --accent-yellow: #eaa81a;
     --accent-purple: #a86aff;
 
     --card-bg: rgba(30, 27, 47, 0.85);
@@ -148,3 +148,12 @@ h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--ac
 #forms .card-list .card img {
     flex-shrink: 0;
 }
+
+.js-tab-panel[aria-hidden="true"] {
+    display: none;
+}
+
+.js-tab-panel[aria-hidden="false"] {
+    display: block;
+}
+
