@@ -6,8 +6,8 @@
     --text: #ffffff;
     --muted: #cccccc;
 
-    --accent-blue: #4da3ff;
-    --accent-yellow: #c5911c;
+    --accent-blue: #0869d1;
+    --accent-blue-dark: #2367af;
     --accent-purple: #a86aff;
 
     --card-bg: rgba(30, 27, 47, 0.85);
@@ -59,7 +59,7 @@ main { flex: 1; }
     transform: translateX(-50%); width: 40%; height: 3px;
     background: var(--accent-blue); border-radius: 2px;
 }
-.main-nav button:hover { color: var(--accent-yellow); }
+.main-nav button:hover { color: var(--accent-blue-dark); }
 
 .card-list {
     display: grid;
@@ -123,13 +123,13 @@ figcaption { font-size: 0.95rem; color: var(--muted); margin-top: 0.5rem; }
     box-shadow: 0 -8px 20px rgba(77, 163, 255, 0.2);
 }
 
-:focus { outline: 3px solid var(--accent-yellow); outline-offset: 3px; }
+:focus { outline: 3px solid var(--accent-blue-dark); outline-offset: 3px; }
 
-h2 { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; color: var(--accent-yellow); }
+h2 { font-size: 2rem; font-weight: 700; margin-bottom: 1rem; color: var(--accent-blue-dark); }
 h2:nth-of-type(2) { color: var(--accent-blue); }
 h2:nth-of-type(3) { color: var(--accent-purple); }
 
-h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--accent-yellow); }
+h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--accent-blue-dark); }
 
 #forms .card-list {
     display: grid;
