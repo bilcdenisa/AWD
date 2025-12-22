@@ -1,7 +1,7 @@
 :root {
     --max-width: 1000px;
 
-    --bg: #f3f1f1;
+    --bg: #f6f6f6;
     --surface: #1e1b2f;
     --text: #ffffff;
     --muted: #cccccc;
@@ -10,7 +10,7 @@
     --accent-blue-dark: #2367af;
     --accent-purple: #a86aff;
 
-    --card-bg: rgba(30, 27, 47, 0.94);
+    --card-bg: rgba(30, 27, 47, 0.92);
     --card-border: rgba(255, 255, 255, 0.1);
     --panel-bg: rgba(28, 24, 44, 0.85);
 }
