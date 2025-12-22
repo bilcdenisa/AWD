@@ -35,12 +35,6 @@ main { flex: 1; }
 
 .wrap { max-width: var(--max-width); margin: 0 auto; padding: 2rem 1rem; }
 
-.skip-link { position: absolute; left: -999rem; }
-.skip-link:focus {
-    left: 1rem; top: 1rem; background: #000; color: #fff;
-    padding: 0.5rem; border-radius: 4px; z-index: 1000;
-}
-
 .site-header {
     background: linear-gradient(135deg, #1e1b2f 0%, #4a3b70 50%, #1a1a33 100%);
     color: var(--text);
