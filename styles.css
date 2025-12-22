@@ -67,8 +67,7 @@ main { flex: 1; }
 }
 .main-nav button:hover { color: var(--accent-yellow); }
 
-.card-list,
-.example-grid {
+.card-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
