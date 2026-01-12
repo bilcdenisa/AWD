@@ -226,7 +226,7 @@ desktop
         padding: 3rem 2rem;
     }
     .card-list {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     #meaning img {
         height: 420px;
