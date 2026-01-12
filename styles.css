@@ -63,7 +63,6 @@ main { flex: 1; }
 
 .card-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
 }
@@ -155,5 +154,60 @@ h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--ac
 
 .js-tab-panel[aria-hidden="false"] {
     display: block;
+}
+
+/*
+mobile
+ */
+@media (max-width: 599px) {
+    .site-header {
+        padding: 1.5rem 1rem;
+        border-radius: 0;
+    }
+    .brand {
+        font-size: 2rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
+    .main-nav {
+        gap: 1rem;
+    }
+    .card-list {
+        grid-template-columns: 1fr;
+    }
+    #meaning img {
+        height: 260px;
+    }
+}
+
+/*
+tablet
+ */
+@media (min-width: 600px) and (max-width: 1023px) {
+    .brand {
+        font-size: 2.2rem;
+    }
+    .card-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #meaning img {
+        height: 340px;
+    }
+}
+
+/*
+desktop
+ */
+@media (min-width: 1024px) {
+    .wrap {
+        padding: 3rem 2rem;
+    }
+    .card-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #meaning img {
+        height: 420px;
+    }
 }
 
