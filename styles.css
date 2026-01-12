@@ -48,7 +48,7 @@ main { flex: 1; }
 .subtitle { margin:0.5rem 0 1.5rem 0; font-weight: 400; font-size: 1.1rem; color: #ffffff; }
 
 .main-nav {
-    list-style: none; display: flex; gap: 2rem; justify-content: center; padding:0; flex-wrap: wrap;
+    list-style: none; display: none; gap: 2rem; justify-content: center; padding:0; flex-wrap: wrap;
 }
 .main-nav button {
     background: none; border: none; color: var(--text); font-weight: 600; font-size: 1rem;
@@ -148,11 +148,15 @@ h3 { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--ac
     flex-shrink: 0;
 }
 
-.js-tab-panel[aria-hidden="true"] {
+.js-enabled .main-nav {
+    display: flex;
+}
+
+.js-enabled .js-tab-panel[aria-hidden="true"] {
     display: none;
 }
 
-.js-tab-panel[aria-hidden="false"] {
+.js-enabled .js-tab-panel[aria-hidden="false"] {
     display: block;
 }
 
